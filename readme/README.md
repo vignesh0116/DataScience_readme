@@ -396,7 +396,7 @@ sns.countplot(x = 'quality',data= redwine)
 
 
     
-![png](Wine_analysis_EDA_files/Wine_analysis_EDA_14_1.png)
+![png](README_files/README_14_1.png)
     
 
 
