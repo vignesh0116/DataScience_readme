@@ -1,3 +1,19 @@
+Table of contents 
+
+1. [red wine info](#red-wine-info)
+2. [white wine info](#white-wine-info)
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
 ```python
 import pandas  as pd
 import numpy as np
@@ -8,6 +24,8 @@ sns.set(rc={'figure.figsize': (14, 8)})
 import warnings
 warnings.filterwarnings('ignore')
 ```
+
+### Read file
 
 
 ```python
@@ -138,6 +156,8 @@ redwine.head()
 
 
 
+### red wine info
+
 
 ```python
 redwine.info()
@@ -163,6 +183,8 @@ redwine.info()
     dtypes: float64(11), int64(1)
     memory usage: 150.0 KB
     
+
+### white wine info
 
 
 ```python
@@ -374,7 +396,7 @@ sns.countplot(x = 'quality',data= redwine)
 
 
     
-![png](Wine_analysis_EDA_files/Wine_analysis_EDA_8_1.png)
+![png](Wine_analysis_EDA_files/Wine_analysis_EDA_14_1.png)
     
 
 
