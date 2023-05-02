@@ -7,7 +7,7 @@
 3. [Chapter 3 - Step 1: Problem Definition](#Step-1-Problem-Definition)
 4. [Chapter 4 - Step 2: Data Gathering](#Step-2-Data-Gathering)
 5. [Chapter 5 - Step 3: Data Preparation](#Step-3-Data-Preperation)
-6. [Chapter 6 - Step 4: Explanatory Data Analysis (EDA)](#Step-4-Explanatory-Data-Analysis-(EDA))
+6. [Chapter 6 - Step 4: Explanatory Data Analysis (EDA)](#Step-4-Explanatory-Data-Analysis)
 7. [Chapter 7 - Step 5: Data Modelling](#Step-5-Data-Modelling)
 8. [Chapter 8 - Evaluate Model Performance](#Step-6-Predicting-Test-dataset)
 9. [Chapter 9 - Conclusion](#Conclusion)
@@ -171,7 +171,7 @@ Rounding the value to four categories to understand easily
 
 ![image.png](imagefinal/01b08bff-6980-4418-ae1a-0b24229b2e85.png)
 
-### Step 4 Explanatory Data Analysis (EDA)
+### Step 4 Explanatory Data Analysis
 
 - Below graph shows Male mosty get defaulted than Female
 - highschool gets defaulted than other categories 
