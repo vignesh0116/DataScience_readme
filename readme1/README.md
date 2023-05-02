@@ -4,7 +4,7 @@
 
 1. [Chapter 1 - Project Overview](#Project-Overview)
 2. [Chapter 2 - Data Science Steps](#Data-Science-Steps)
-3. [Chapter 3 - Step 1: Problem Definition](#Step-1:-Problem-Definition)
+3. [Chapter 3 - Step 1: Problem Definition](#Step-1-Problem-Definition)
 4. [Chapter 4 - Step 2: Data Gathering](#Step-2:-Data-Gathering)
 5. [Chapter 5 - Step 3: Data Preparation](#Step-3:-Data-Preperation)
 6. [Chapter 6 - Step 4: Explanatory Data Analysis (EDA)](#Step-4:-Explanatory-Data-Analysis-(EDA))
@@ -34,7 +34,7 @@ Let's take a look at the steps
 
 
 
-### Step 1: Problem Definition
+### Step 1 Problem Definition
 
 This research aimed at the case of customers default payments in Taiwan and compares the predictive accuracy of probability of default among different models methods.
 
