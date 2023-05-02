@@ -18,11 +18,9 @@ jupyter:
   nbformat_minor: 5
 ---
 
-::: {#5ce13d73-973c-42fe-913a-c17149c74034 .cell .markdown}
 # Default of credit card clients
 :::
 
-::: {#123e2891-6223-4a8e-aa77-6202b2b66de6 .cell .markdown}
 ### Table of Contents
 
 1.  Loading the data
@@ -33,7 +31,6 @@ jupyter:
 5.  Evaluate and refine prediction models
 :::
 
-::: {#312947fa-7922-42d0-9baf-384a3f3e412e .cell .markdown tags="[]"}
 ### Project Overview
 
 This Project aimed at the case of customers default payments in Taiwan
@@ -51,7 +48,6 @@ optimizing the model further.
 Let\'s take a look at the steps
 :::
 
-::: {#54da881a-ee89-4670-b71b-cad7b47aea68 .cell .markdown tags="[]"}
 ### Data Science Steps
 
 1.  Problem Definition: What factors determined whether someone survived
@@ -74,15 +70,13 @@ Let\'s take a look at the steps
     worked on making the model better.
 :::
 
-::: {#938cc0a0-f3b8-4af3-9c7a-2e312f903327 .cell .markdown tags="[]"}
 ### Step 1: Problem Definition
 
 This research aimed at the case of customers default payments in Taiwan
 and compares the predictive accuracy of probability of default among
 different models methods.
-:::
 
-::: {#b1b24320-a43d-4cd7-b79f-f72e515bc3af .cell .markdown}
+
 ### Step 2: Data Gathering
 
 The dataset can be found on found on [UCI Machine Learning
