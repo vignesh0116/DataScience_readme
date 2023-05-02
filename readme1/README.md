@@ -9,7 +9,7 @@
 5. [Chapter 5 - Step 3: Data Preparation](#Step-3-Data-Preperation)
 6. [Chapter 6 - Step 4: Explanatory Data Analysis (EDA)](#Step-4-Explanatory-Data-Analysis)
 7. [Chapter 7 - Step 5: Data Modelling](#Step-5-Data-Modelling)
-8. [Chapter 8 - Evaluate Model Performance](#Step-6-Predicting-Test-dataset)
+8. [Chapter 8 - Step 6: Evaluate Model Performance](#Step-6-Predicting-Test-dataset)
 9. [Chapter 9 - Conclusion](#Conclusion)
 10. [References](#Reference)
 
