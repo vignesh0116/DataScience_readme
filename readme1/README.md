@@ -131,19 +131,19 @@ pd.set_option('display.max_rows', 30)
 
 The default payment next month variable is the outcome or dependent variable. The datatype is 1 if the customer default and 0 if they did not default. The rest of the variables are independent variables. Most variable names are self explanatory but a couple may be worth mentioning. The LIMIT_BAL represents Amount of the given credit (NT dollar): it includes both the individual consumer credit and his/her family (supplementary) credit.Pay_6 to Pay_0 is the History of past payment. We tracked the past monthly payment records (from April to September, 2005).similarly for BILL_AMT & PAY_AMT columns respectively.
 
-![image.png](attachment:a46ca2ee-ace7-493d-bc89-a96123207b49.png)
+![image.png](image/a46ca2ee-ace7-493d-bc89-a96123207b49.png)
 
-![image.png](attachment:29824355-38b5-4e02-a987-7af61b14a351.png)
+![image.png](image/29824355-38b5-4e02-a987-7af61b14a351.png)
 
-[image.png](attachment:f813f3f5-b78b-4efb-8aae-72761f96817c.png)
+[image.png](image/f813f3f5-b78b-4efb-8aae-72761f96817c.png)
 
 Check for missing values
 
-![image.png](attachment:a5728728-e35e-40fd-9f36-afb9f5072d41.png)
+![image.png](image/a5728728-e35e-40fd-9f36-afb9f5072d41.png)
 
 Ratio between Male and female (1 = male; 2 = female)
 
-![image.png](attachment:f2eb6ec4-2b3d-4e6d-a4ae-50bd834eed25.png)
+![image.png](image/f2eb6ec4-2b3d-4e6d-a4ae-50bd834eed25.png)
 
 #### 3.3 Data Pre-processing:
 
@@ -159,13 +159,13 @@ To change the columns accordingly to respective month to get clear idea of what 
 - Rename the Target column to avoid space/column length
 
 
-![image.png](attachment:900ee1d7-27a6-47b9-908a-5d56cd3ab489.png)
+![image.png](image/900ee1d7-27a6-47b9-908a-5d56cd3ab489.png)
 
-![image.png](attachment:d144beb7-6c93-4b2d-9457-36f935414363.png)
+![image.png](image/d144beb7-6c93-4b2d-9457-36f935414363.png)
 
 Rounding the value to four categories to understand easily
 
-![image.png](attachment:01b08bff-6980-4418-ae1a-0b24229b2e85.png)
+![image.png](image/01b08bff-6980-4418-ae1a-0b24229b2e85.png)
 
 ### Step 4: Explanatory Data Analysis (EDA)
 
@@ -174,29 +174,29 @@ Rounding the value to four categories to understand easily
 - Married person get defaulted than single 
 
 
-![image.png](attachment:659879ca-349e-407c-9eb7-106987730533.png)
+![image.png](image/659879ca-349e-407c-9eb7-106987730533.png)
 
 Male at all age bins get defaulted than Female
 as we seen above married male gets default than married female
-![image.png](attachment:4b7483a7-54fc-4e04-9293-169c068718c9.png)
+![image.png](image/4b7483a7-54fc-4e04-9293-169c068718c9.png)
 
 As we seen below low limit score mostly to get default  
 
-![image.png](attachment:899a38be-d393-4bdd-9d4e-9001ed0a4217.png)
+![image.png](image/899a38be-d393-4bdd-9d4e-9001ed0a4217.png)
 
 
 Pay_september status > 2 mostly gets defaulted 
 
-![image.png](attachment:64e3bca0-d610-4c5c-8d4c-6bd430d6ebf3.png)
+![image.png](image/64e3bca0-d610-4c5c-8d4c-6bd430d6ebf3.png)
 
 Predicting the Good feature for our model using ANOVA for All features vs Target. Pay_status features will impact more thaan others lets compare later with feature importance 
  
 
-![image.png](attachment:b6cbf69b-6a6c-430b-a678-2022588d5901.png)
+![image.png](image/b6cbf69b-6a6c-430b-a678-2022588d5901.png)
 
 Top 25% feature are listed below to get good output
 
-![image.png](attachment:d85e6a1a-a66b-4ef0-aca9-f9c36c374d13.png)
+![image.png](image/d85e6a1a-a66b-4ef0-aca9-f9c36c374d13.png)
 
 
 ```python
