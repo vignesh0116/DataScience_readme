@@ -1,28 +1,6 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.9.13
-  nbformat: 4
-  nbformat_minor: 5
----
 
-::: {#5ce13d73-973c-42fe-913a-c17149c74034 .cell .markdown}
 # Default of credit card clients
-:::
 
-::: {#123e2891-6223-4a8e-aa77-6202b2b66de6 .cell .markdown}
 ### Table of Contents
 
 1.  Loading the data
@@ -31,9 +9,9 @@ jupyter:
     card clients
 4.  Develop prediction models
 5.  Evaluate and refine prediction models
-:::
 
-::: {#312947fa-7922-42d0-9baf-384a3f3e412e .cell .markdown tags="[]"}
+
+
 ### Project Overview
 
 This Project aimed at the case of customers default payments in Taiwan
@@ -72,34 +50,25 @@ Let\'s take a look at the steps
     and looked for any issues with overfitting or underfitting.
 7.  Optimize Model: Using techniques like hyperparameter optimization, I
     worked on making the model better.
-:::
 
-::: {#938cc0a0-f3b8-4af3-9c7a-2e312f903327 .cell .markdown tags="[]"}
 ### Step 1: Problem Definition
 
 This research aimed at the case of customers default payments in Taiwan
 and compares the predictive accuracy of probability of default among
 different models methods.
-:::
 
-::: {#b1b24320-a43d-4cd7-b79f-f72e515bc3af .cell .markdown}
+
 ### Step 2: Data Gathering
 
 The dataset can be found on found on [UCI Machine Learning
 Repository](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
-:::
-
-::: {#5f361324-0651-4046-a13d-200ba0f1c4c2 .cell .markdown tags="[]"}
 ### Step 3: Data Preperation
 
 The data was pre-processed, so I only focused on cleaning it up further.
-:::
 
-::: {#e9823574-6b52-4a7c-be69-601b8c5dbf70 .cell .markdown}
+
 #### 3.1 Import Libraries {#31-import-libraries}
-:::
 
-::: {#b6eef5bc-90e7-402d-933d-4571241050e7 .cell .code execution_count="62"}
 ``` python
 import sys #access to system parameters https://docs.python.org/3/library/sys.html
 print("Python version: {}". format(sys.version))
@@ -134,20 +103,6 @@ import warnings
 warnings.filterwarnings('ignore')
 print('-'*25)
 ```
-
-::: {.output .stream .stdout}
-    Python version: 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
-    pandas version: 1.4.4
-    matplotlib version: 3.5.2
-    NumPy version: 1.21.5
-    SciPy version: 1.9.1
-    IPython version: 7.31.1
-    scikit-learn version: 1.2.2
-    -------------------------
-:::
-:::
-
-::: {#29a79ca2-a5ba-415c-890c-b3033badf98c .cell .code execution_count="2"}
 ``` python
 #Common Model Algorithms
 from sklearn import svm, tree, linear_model, neighbors, naive_bayes, ensemble, discriminant_analysis, gaussian_process
@@ -178,13 +133,9 @@ pd.set_option('display.width', 75)
 pd.set_option('display.max_columns', 20)
 pd.set_option('display.max_rows', 30)
 ```
-:::
 
-::: {#fb3aac9c-74e6-4d8c-befe-98a7527f0bfc .cell .markdown}
 #### 3.2 Pre-view of the Data {#32-pre-view-of-the-data}
-:::
 
-::: {#022ed1ea-2d86-4458-ab07-bd7249dc7645 .cell .markdown}
 The default payment next month variable is the outcome or dependent
 variable. The datatype is 1 if the customer default and 0 if they did
 not default. The rest of the variables are independent variables. Most
@@ -194,21 +145,13 @@ dollar): it includes both the individual consumer credit and his/her
 family (supplementary) credit.Pay_6 to Pay_0 is the History of past
 payment. We tracked the past monthly payment records (from April to
 September, 2005).similarly for BILL_AMT & PAY_AMT columns respectively.
-:::
 
-::: {#9927dabc-1732-4d03-89ef-e540a11c9eeb .cell .markdown}
-![image.png](vertopal_8d53e1a52f8c40368679636fb3d1fa2a/a46ca2ee-ace7-493d-bc89-a96123207b49.png)
-:::
+![image.png](imagefie/creditcard (1).png)
 
-::: {#d66095b4-4972-4db8-b086-36edd583e78b .cell .markdown}
-![image.png](vertopal_8d53e1a52f8c40368679636fb3d1fa2a/29824355-38b5-4e02-a987-7af61b14a351.png)
-:::
+![image.png](imagefie/creditcard (2).png)
 
-::: {#76d01270-924c-4aaf-b328-0775ac238801 .cell .markdown}
-[image.png](attachment:f813f3f5-b78b-4efb-8aae-72761f96817c.png)
-:::
+![image.png](imagefie/creditcard (3).png)
 
-::: {#ca2bf882-907b-4c3b-8ded-9f923bb44df5 .cell .markdown}
 Check for missing values
 :::
 
