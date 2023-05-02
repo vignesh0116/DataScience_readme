@@ -139,7 +139,7 @@ The default payment next month variable is the outcome or dependent variable. Th
 
 ![image.png](imagefinal/29824355-38b5-4e02-a987-7af61b14a351.png)
 
-[image.png](imagefinal/f813f3f5-b78b-4efb-8aae-72761f96817c.png)
+![image.png](imagefinal/f813f3f5-b78b-4efb-8aae-72761f96817c.png)
 
 Check for missing values
 
